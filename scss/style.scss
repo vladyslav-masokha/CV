@@ -1,0 +1,259 @@
+$font-stack: 'Montserrat', sans-serif;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+i {
+	width: 20px;
+	color: #843ac9;
+}
+
+.wrapper {
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.main {
+	min-width: 300px;
+	width: 90%;
+	padding: 25px 10px 55px 10px;
+	margin: 50px auto;
+	background: #f4f4f4;
+	box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
+
+	.contacts {
+		margin: 30px 0;
+		h1 {
+			color: #843ac9;
+			text-align: center;
+			font: {
+				family: $font-stack;
+				size: 32px;
+				weight: 700;
+			}
+		}
+
+		h3 {
+			margin: 20px 0;
+		}
+
+		p {
+			margin-top: 5px;
+			line-height: 20px;
+			font: {
+				family: $font-stack;
+				size: 16px;
+				weight: 400;
+			}
+
+			b {
+				padding-right: 5px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #000;
+
+				&[href="https://github.com/vladyslav-masokha"]
+				{
+					text-decoration: none;
+					color: #474646;
+					padding-top: 5px;
+					font: {
+						style: italic;
+					}
+				}
+
+				&[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"]
+				{
+					text-decoration: none;
+					color: #474646;
+					padding-top: 5px;
+					font: {
+						style: italic;
+					}
+				}
+			}
+		}
+	}
+
+	.contacts-img {
+		display: none;
+	}
+
+	.objectives {
+		margin: 30px 0;
+		p {
+			font: {
+				family: $font-stack;
+				size: 16px;
+				weight: 400;
+			}
+
+			b {
+				padding-right: 5px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #000;
+			}
+		}
+	}
+
+	.summary {
+		font: {
+			family: $font-stack;
+			size: 16px;
+			weight: 400;
+		}
+
+		p {
+			margin-top: 5px;
+
+			b {
+				padding-right: 5px;
+			}
+		}
+
+		ul {
+			margin: 0 0 0 17px;
+			li {
+				list-style: square;
+				margin: 10px 0 0 0;
+			}
+
+			a {
+				text-decoration: none;
+				color: #474646;
+				padding-top: 5px;
+				font: {
+					style: italic;
+				}
+			}
+		}
+	}
+
+	.hard-skills {
+		margin-top: 30px;
+		font: {
+			family: $font-stack;
+			size: 18px;
+			weight: 700;
+		}
+
+		ul {
+			margin-top: 10px;
+			li {
+				margin-left: 40px;
+				list-style: square;
+			}
+		}
+	}
+
+	.education {
+		margin-top: 30px;
+		font: {
+			family: $font-stack;
+		}
+
+		b {
+			padding-right: 5px;
+			font: {
+				size: 18px;
+				weight: 700;
+			}
+		}
+	}
+
+	.additional-education,
+	.additional-information {
+		margin-top: 30px;
+		font: {
+			family: $font-stack;
+		}
+
+		b {
+			font: {
+				size: 16px;
+				weight: 700;
+			}
+			padding-right: 5px;
+		}
+
+		p {
+			margin-top: 5px;
+		}
+
+		a {
+			text-decoration: none;
+			color: #474646;
+			padding-top: 5px;
+			font: {
+				style: italic;
+			}
+		}
+
+		.robocode {
+			margin-top: 20px;
+		}
+	}
+
+	.work-experience {
+		margin-top: 30px;
+		font: {
+			family: $font-stack;
+		}
+
+		p {
+			text-decoration: underline;
+		}
+	}
+
+	.soft-skills {
+		margin-top: 30px;
+		font: {
+			family: $font-stack;
+			size: 18px;
+			weight: 700;
+		}
+
+		ul {
+			margin-top: 10px;
+			li {
+				margin-left: 40px;
+				list-style: square;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.main {
+		width: 700px;
+		.contact-and-img {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.contacts-img {
+			display: block;
+
+			img {
+				width: 200px;
+			}
+		}
+	}
+}
