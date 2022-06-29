@@ -1,0 +1,28 @@
+i {
+  color: #843ac9;
+}
+
+.main {
+  background: #f4f4f4;
+  box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
+}
+.main .contacts h1,
+.main .objectives h1 {
+  color: #843ac9;
+}
+.main .contacts p a,
+.main .objectives p a {
+  color: #222;
+}
+.main .contacts p a[href="https://github.com/vladyslav-masokha"], .main .contacts p a[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"],
+.main .objectives p a[href="https://github.com/vladyslav-masokha"],
+.main .objectives p a[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"] {
+  color: #474646;
+}
+.main .summary ul a {
+  color: #474646;
+}
+.main .additional-education a,
+.main .additional-information a {
+  color: #474646;
+}

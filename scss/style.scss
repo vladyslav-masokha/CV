@@ -16,7 +16,6 @@ body {
 
 i {
 	width: 20px;
-	color: #843ac9;
 }
 
 .wrapper {
@@ -29,13 +28,10 @@ i {
 	width: 90%;
 	padding: 25px 10px 55px 10px;
 	margin: 50px auto;
-	background: #f4f4f4;
-	box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
 
 	.contacts {
-		margin: 30px 0;
+		margin: 30px 0 0 0;
 		h1 {
-			color: #843ac9;
 			text-align: center;
 			font: {
 				family: $font-stack;
@@ -45,7 +41,7 @@ i {
 		}
 
 		h3 {
-			margin: 20px 0;
+			margin: 20px 0 5px 0;
 		}
 
 		p {
@@ -63,12 +59,10 @@ i {
 
 			a {
 				text-decoration: none;
-				color: #000;
 
 				&[href="https://github.com/vladyslav-masokha"]
 				{
 					text-decoration: none;
-					color: #474646;
 					padding-top: 5px;
 					font: {
 						style: italic;
@@ -93,7 +87,7 @@ i {
 	}
 
 	.objectives {
-		margin: 30px 0;
+		margin-top: 5px;
 		p {
 			font: {
 				family: $font-stack;
@@ -107,7 +101,6 @@ i {
 
 			a {
 				text-decoration: none;
-				color: #000;
 			}
 		}
 	}
@@ -136,7 +129,6 @@ i {
 
 			a {
 				text-decoration: none;
-				color: #474646;
 				padding-top: 5px;
 				font: {
 					style: italic;
@@ -146,7 +138,7 @@ i {
 	}
 
 	.hard-skills {
-		margin-top: 30px;
+		margin-top: 5px;
 		font: {
 			family: $font-stack;
 			size: 18px;
@@ -154,7 +146,7 @@ i {
 		}
 
 		ul {
-			margin-top: 10px;
+			margin-top: 5px;
 			li {
 				margin-left: 40px;
 				list-style: square;
@@ -163,7 +155,7 @@ i {
 	}
 
 	.education {
-		margin-top: 30px;
+		margin-top: 5px;
 		font: {
 			family: $font-stack;
 		}
@@ -179,7 +171,7 @@ i {
 
 	.additional-education,
 	.additional-information {
-		margin-top: 30px;
+		margin-top: 5px;
 		font: {
 			family: $font-stack;
 		}
@@ -198,7 +190,6 @@ i {
 
 		a {
 			text-decoration: none;
-			color: #474646;
 			padding-top: 5px;
 			font: {
 				style: italic;
@@ -206,23 +197,12 @@ i {
 		}
 
 		.robocode {
-			margin-top: 20px;
-		}
-	}
-
-	.work-experience {
-		margin-top: 30px;
-		font: {
-			family: $font-stack;
-		}
-
-		p {
-			text-decoration: underline;
+			margin-top: 5px;
 		}
 	}
 
 	.soft-skills {
-		margin-top: 30px;
+		margin-top: 5px;
 		font: {
 			family: $font-stack;
 			size: 18px;

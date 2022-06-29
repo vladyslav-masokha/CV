@@ -1,8 +1,7 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
@@ -15,7 +14,6 @@ body {
 
 i {
   width: 20px;
-  color: #843ac9;
 }
 
 .wrapper {
@@ -28,22 +26,18 @@ i {
   width: 90%;
   padding: 25px 10px 55px 10px;
   margin: 50px auto;
-  background: #f4f4f4;
-  -webkit-box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
 }
 .main .contacts {
-  margin: 30px 0;
+  margin: 30px 0 0 0;
 }
 .main .contacts h1 {
-  color: #843ac9;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
 }
 .main .contacts h3 {
-  margin: 20px 0;
+  margin: 20px 0 5px 0;
 }
 .main .contacts p {
   margin-top: 5px;
@@ -57,11 +51,9 @@ i {
 }
 .main .contacts p a {
   text-decoration: none;
-  color: #000;
 }
 .main .contacts p a[href="https://github.com/vladyslav-masokha"] {
   text-decoration: none;
-  color: #474646;
   padding-top: 5px;
   font-style: italic;
 }
@@ -75,7 +67,7 @@ i {
   display: none;
 }
 .main .objectives {
-  margin: 30px 0;
+  margin-top: 5px;
 }
 .main .objectives p {
   font-family: "Montserrat", sans-serif;
@@ -87,7 +79,6 @@ i {
 }
 .main .objectives p a {
   text-decoration: none;
-  color: #000;
 }
 .main .summary {
   font-family: "Montserrat", sans-serif;
@@ -109,25 +100,24 @@ i {
 }
 .main .summary ul a {
   text-decoration: none;
-  color: #474646;
   padding-top: 5px;
   font-style: italic;
 }
 .main .hard-skills {
-  margin-top: 30px;
+  margin-top: 5px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
 }
 .main .hard-skills ul {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .main .hard-skills ul li {
   margin-left: 40px;
   list-style: square;
 }
 .main .education {
-  margin-top: 30px;
+  margin-top: 5px;
   font-family: "Montserrat", sans-serif;
 }
 .main .education b {
@@ -137,7 +127,7 @@ i {
 }
 .main .additional-education,
 .main .additional-information {
-  margin-top: 30px;
+  margin-top: 5px;
   font-family: "Montserrat", sans-serif;
 }
 .main .additional-education b,
@@ -153,23 +143,15 @@ i {
 .main .additional-education a,
 .main .additional-information a {
   text-decoration: none;
-  color: #474646;
   padding-top: 5px;
   font-style: italic;
 }
 .main .additional-education .robocode,
 .main .additional-information .robocode {
-  margin-top: 20px;
-}
-.main .work-experience {
-  margin-top: 30px;
-  font-family: "Montserrat", sans-serif;
-}
-.main .work-experience p {
-  text-decoration: underline;
+  margin-top: 5px;
 }
 .main .soft-skills {
-  margin-top: 30px;
+  margin-top: 5px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -187,15 +169,9 @@ i {
     width: 700px;
   }
   .main .contact-and-img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .main .contacts-img {
     display: block;

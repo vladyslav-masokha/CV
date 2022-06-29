@@ -1,0 +1,41 @@
+i {
+	color: #843ac9;
+}
+
+.main {
+	background: #f4f4f4;
+	box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
+
+	.contacts,
+	.objectives {
+		h1 {
+			color: #843ac9;
+		}
+
+		p {
+			a {
+				color: #222;
+
+				&[href="https://github.com/vladyslav-masokha"],
+				&[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"] {
+					color: #474646;
+				}
+			}
+		}
+	}
+
+	.summary {
+		ul {
+			a {
+				color: #474646;
+			}
+		}
+	}
+
+	.additional-education,
+	.additional-information {
+		a {
+			color: #474646;
+		}
+	}
+}

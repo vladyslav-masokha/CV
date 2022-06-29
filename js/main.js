@@ -1,17 +1,19 @@
-// const checkbox = document.querySelector('.theme-switch__checkbox');
+const themeSwitchers = document.querySelectorAll('.change-theme');
+themeSwitchers.forEach(e => {
+	e.addEventListener('click', function () {
+		applyTheme(this.dataset.theme);
+		localStorage.setItem('theme', this.dataset.theme);
+	});
+});
 
-// checkbox.addEventListener('change', function () {
-// 	transition();
-// 	if (this.checked) {
-// 		document.documentElement.setAttribute('data-theme', 'dark');
-// 	} else {
-// 		document.documentElement.setAttribute('data-theme', 'light');
-// 	}
-// });
+function applyTheme(themeName) {
+	let themeUrl = `css/theme-${themeName}.css`;
+	document.querySelector('[title="theme"]').setAttribute('href', themeUrl);
+}
 
-// function transition() {
-// 	document.documentElement.classList.add('transition');
-// 	setTimeout(function () {
-// 		document.documentElement.classList.remove('transition');
-// 	}, 250);
-// }
+let activeTheme = localStorage.getItem('theme');
+if (activeTheme === null) {
+	applyTheme('light');
+} else {
+	applyTheme(activeTheme);
+}
