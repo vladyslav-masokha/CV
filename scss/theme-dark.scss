@@ -1,7 +1,7 @@
 body {
-	background: #fff;
+	background: #222;
 	transition: background 1s ease;
-	color: #222;
+	color: #eee;
 }
 
 i {
@@ -9,9 +9,9 @@ i {
 }
 
 .main {
-	background: #f4f4f4;
+	background: #3a3a3a;
 	transition: background 1s ease;
-	box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 0px 15px 10px #00000080	;
 
 	.contacts,
 	.objectives {
@@ -21,11 +21,11 @@ i {
 
 		p {
 			a {
-				color: #222;
+				color: #eee;
 
 				&[href="https://github.com/vladyslav-masokha"],
 				&[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"] {
-					color: #474646;
+					color: #d3d3d3;
 				}
 			}
 		}
@@ -34,7 +34,7 @@ i {
 	.summary {
 		ul {
 			a {
-				color: #474646;
+				color: #d3d3d3;
 			}
 		}
 	}
@@ -42,20 +42,20 @@ i {
 	.additional-education,
 	.additional-information {
 		a {
-			color: #474646;
+			color: #d3d3d3;
 		}
 	}
 }
 
 // Others
 .change-theme[data-theme='light'] {
-	display: none;
-}
-
-.change-theme[data-theme='dark'] {
 	display: block;
 }
 
-.fa-moon {
-	color: #222;
+.fa-sun {
+	color: #eee;
+}
+
+.change-theme[data-theme='dark'] {
+	display: none;
 }

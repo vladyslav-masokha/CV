@@ -12,6 +12,17 @@ body {
   margin: 0;
 }
 
+.theme {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 0 #000;
+}
+.theme i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
 i {
   width: 20px;
 }
