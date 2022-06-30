@@ -26,6 +26,9 @@ i {
 .main .objectives p a[href="https://www.linkedin.com/in/vladyslav-masokha-12615a243/"] {
   color: #d3d3d3;
 }
+.main .summary p i {
+  color: #d5a8ff;
+}
 .main .summary ul a {
   color: #d3d3d3;
 }
